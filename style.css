@@ -1,0 +1,151 @@
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+    margin: 0;
+    }
+    p.rec{
+        background-color: black;
+        color: white;
+        display: inline-block;
+        margin-top: 0px;
+        
+        padding: 8px 18px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    div.rec{
+        text-align: center;
+        margin-bottom: -18px;
+        margin-top: 60px;
+    }
+    div.contenu{
+        background-color: white;
+        margin: 0px 10%  80px 10%;
+        padding: 30px;
+        box-shadow:0px 0px 8px 1px black;
+        /*box-shadow: 0px 0px 8px 8px rgba(8, 8, 8, 0.2);*/
+        
+    }
+
+    h1{
+        text-align: center;
+        margin-bottom: 12px;
+        margin-top: 10px;
+    }
+    p.desc{
+        text-align: center;
+        max-width: 400px;
+        display: inline-block;
+        font-size: 14px;
+    }
+    div.desc{
+        text-align: center;
+        
+    }
+    .sep{
+        width: 100px;
+        height: 1px;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .gat{
+        text-align: center;
+        width: 100%;
+        display: block;
+        min-width: 200px;
+        object-fit: cover;
+        
+        
+    }
+    table.info{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        background-color: #6C829DC0;
+        height:70px;
+    }
+    div.info{
+        position: relative;
+    }
+    table.info td{
+        text-align: center;
+        font-size: 14px;
+        vertical-align: top;
+    }table.info th{
+        padding: 4px;
+        font-size: 16px;
+        vertical-align: bottom;
+    }
+    .colonne1{
+        
+        
+        display: inline-block;
+        margin-right: 10%;
+        
+
+    }
+    .colonne2{
+        
+        float: right;
+        
+
+    }
+    .colonne h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-bottom: 5px solid #6C829D;
+        padding-bottom: 5px;
+    }
+    div.colonne{
+        margin-top: 20px;
+        width: 45%;
+        
+
+    }
+    .de2 p{
+        text-align: center;
+       border: 1px solid lightgrey ;
+       font-size: 14px;
+       padding: 8px 0px;
+       margin-top: 4px;
+       margin-bottom: 0px;
+
+    }
+    P.num{
+        background-color: #6C829D;
+       color: white;
+       height: 25px;
+       width: 25px;
+       border-radius: 50%;
+       text-align: center;
+       padding-top: 4px;
+       font-weight:bold ;
+       box-sizing: border-box;
+       margin: 0; 
+    }
+    .tab{
+        vertical-align: top;
+        display: inline-block;
+    }
+
+    table.tab td.prep
+    {
+        font-size: 14px;
+        padding-left: 10px;
+        
+    }
+    table.tab tr{
+        height: 40px;
+
+    }
+    *{
+        overflow: auto;
+    }
+
+    
